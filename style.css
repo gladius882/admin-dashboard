@@ -8,5 +8,28 @@
 }
 
 body {
-    background-color: grey;
+    background-color: var(--background-color);
+    color: var(--text-color-primary);
+    font-size: 24px;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+}
+
+.sidebar {
+    width: min(200px, 10vw);
+    background-color: var(--accent-color);
+    color: var(--text-color-contrast);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
 }
